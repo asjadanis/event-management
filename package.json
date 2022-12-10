@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "format": "prettier --config .prettierrc '**/*.{css,ts,tsx,js,jsx,json}' --write"
+    "format": "prettier --config .prettierrc '**/*.{css,ts,tsx,js,jsx,json}' --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "18.11.13",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
     "prettier": "^2.8.1"
   }
 }
